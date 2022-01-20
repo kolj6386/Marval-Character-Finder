@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #ED1D24; 
+  padding-left: 24px;
+  padding-right: 24px;
+  /* background: radial-gradient(50% 50% at 50% 50%, rgb(184, 0, 0) 0%, rgb(148, 0, 0) 15.1%, rgb(108, 1, 1) 39.58%, rgb(72, 1, 1) 69.27%, rgb(56, 5, 5) 94.79%) no-repeat; */
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.search-bar {
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  margin-left: 10px;
+  height: 50px;
+  border: 0px;
+  border-radius: 4px 0px 0px 4px;
+  padding: 10px;
+  font-size: 24px;
+  outline: none;
+  font-family: 'Bebas Neue', cursive;
+  color: black!important;
+}
+
+.search-button {
+  /* background-color: rgba(255, 255, 255, 0.972); */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  background: black;
+  border-radius: 0px 4px 4px 0px;
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  margin-right: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  margin-top: -0.5px;
+}
+
+.search-button:hover {
+  background-color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s ease-in-out;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.marvel-logo {
+  max-height: 20%;
+  max-width: 40%;
+  object-fit: cover;
+}
+
+.logo-div {
+  text-align: center;
+  padding-top: 150px;
+}
